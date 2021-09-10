@@ -18,7 +18,7 @@ ul {
 
 ul li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 20px;
 
 }
 
@@ -41,9 +41,11 @@ ul li a.active {
 
 ul li a.download {
     border: 1px solid #fff;
-    padding: 5px 20px;
+    padding: 14px 16px;
     border-radius: 3px;
     color: #fff;
+    float: center;
+
 }
 
 ul li a.download:hover {
@@ -58,10 +60,33 @@ color: red;
     overflow: hidden;
 }
 
-.main {
-    max-width: 1400px;
-    margin: auto;
-}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+
+
+  .main {
+    padding: 16px;
+    margin-top: 0px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
 
 .title {
     position: absolute;
